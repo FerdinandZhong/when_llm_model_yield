@@ -1,0 +1,293 @@
+{
+  "groups": [
+    {
+      "array_index": 0,
+      "model": "Llama",
+      "domain": "science",
+      "setting": "correction",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority",
+        "verified",
+        "verified_authority"
+      ],
+      "assigned_histories": 1075,
+      "assigned_clusters": 1075
+    },
+    {
+      "array_index": 1,
+      "model": "Llama",
+      "domain": "commonsense",
+      "setting": "correction",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority",
+        "verified",
+        "verified_authority"
+      ],
+      "assigned_histories": 47,
+      "assigned_clusters": 47
+    },
+    {
+      "array_index": 2,
+      "model": "Luna",
+      "domain": "science",
+      "setting": "correction",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority",
+        "verified",
+        "verified_authority"
+      ],
+      "assigned_histories": 52,
+      "assigned_clusters": 52
+    },
+    {
+      "array_index": 3,
+      "model": "Luna",
+      "domain": "commonsense",
+      "setting": "correction",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority",
+        "verified",
+        "verified_authority"
+      ],
+      "assigned_histories": 3,
+      "assigned_clusters": 3
+    },
+    {
+      "array_index": 4,
+      "model": "Llama",
+      "domain": "science",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 1760,
+      "assigned_clusters": 1760
+    },
+    {
+      "array_index": 5,
+      "model": "Llama",
+      "domain": "commonsense",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 940,
+      "assigned_clusters": 940
+    },
+    {
+      "array_index": 6,
+      "model": "Llama",
+      "domain": "values",
+      "setting": "value_redirection",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 39603,
+      "assigned_clusters": 1000
+    },
+    {
+      "array_index": 7,
+      "model": "Luna",
+      "domain": "values",
+      "setting": "value_redirection",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 34701,
+      "assigned_clusters": 1000
+    },
+    {
+      "array_index": 8,
+      "model": "Luna",
+      "domain": "science",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 2958,
+      "assigned_clusters": 2958
+    },
+    {
+      "array_index": 9,
+      "model": "Luna",
+      "domain": "commonsense",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 1050,
+      "assigned_clusters": 1050
+    },
+    {
+      "array_index": 10,
+      "model": "Gemma",
+      "domain": "science",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 2696,
+      "assigned_clusters": 2696
+    },
+    {
+      "array_index": 11,
+      "model": "Gemma",
+      "domain": "commonsense",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 1055,
+      "assigned_clusters": 1055
+    },
+    {
+      "array_index": 12,
+      "model": "Gemma",
+      "domain": "values",
+      "setting": "value_redirection",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 37247,
+      "assigned_clusters": 1000
+    },
+    {
+      "array_index": 13,
+      "model": "Qwen",
+      "domain": "science",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 2492,
+      "assigned_clusters": 2492
+    },
+    {
+      "array_index": 14,
+      "model": "Qwen",
+      "domain": "commonsense",
+      "setting": "resistance",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 1036,
+      "assigned_clusters": 1036
+    },
+    {
+      "array_index": 15,
+      "model": "Qwen",
+      "domain": "values",
+      "setting": "value_redirection",
+      "conditions": [
+        "neutral",
+        "bare",
+        "authority",
+        "merit",
+        "merit_authority",
+        "formal",
+        "formal_authority"
+      ],
+      "assigned_histories": 39735,
+      "assigned_clusters": 1000
+    }
+  ],
+  "npz_sha256": "f87a8c13d8b8b7e6849de0513168a1d5872c9a574d19114c9fe6f303b72d431e",
+  "coding": {
+    "-1": "invalid",
+    "0": "retained",
+    "1": "target adoption",
+    "2": "other revision"
+  },
+  "cluster_order": "Zero-based rank of original string-sorted cluster IDs within each group, preserving the seeded bootstrap order. Original IDs are omitted.",
+  "boundary": "Assigned eligible histories from frozen normalized exports. No profile attributes, question IDs, respondent IDs, raw responses or private endpoints included. Original eligibility and parsing are not independently authenticated by this package."
+}
