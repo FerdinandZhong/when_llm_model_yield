@@ -1,0 +1,92 @@
+# Draft sharing policy. Ignoring a file does not delete it or untrack it.
+# This is not an anonymity or secret audit. Review included source/configuration
+# files before release. Keep the frozen local evidence unchanged.
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.template
+.secrets/
+secrets/
+credentials.json
+*_credentials.json
+*.pem
+*.key
+.aws/
+.ssh/
+.claude/
+.codex/
+.omc/
+.idea/
+.vscode/
+
+# Python environments, caches, packaging and test outputs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+/build/
+/dist/
+
+# Operating-system files and temporary runtime outputs
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
+*.pid
+logs/
+_2x2_chunk_tmp/
+
+# Legacy endpoint configurations can contain embedded credentials.
+/llm_behavior_adaptation/value_measurement/values_prediction_configs/
+
+# Local datasets, respondent records and generated dialogues.
+# Do not use blanket CSV/JSON/NPZ exclusions: the supplement needs these formats.
+/datasets/
+/wvs_values_results/
+/wvs_generated_dialogues/
+/llm_behavior_adaptation/dialogue_dataset_creation/dialogues_validation/
+*.jsonl
+
+# Manuscript workspaces and frozen research history remain local.
+# The independently runnable release package lives in /reproducibility/.
+/paper2_sycophancy_accent/
+/Sycophancy_has_an_accent____ACM/
+
+# Downloaded publications and old bundles are not release dependencies.
+/literature_review/*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# LaTeX build products. Keep figure PDFs and template source/license files.
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.toc
+*.lof
+*.lot
+# Reproduction outputs are regenerated locally; retain the reference inputs.
+/reproducibility/reproduced_results.csv
+/reproducibility/reproduction_check.json
